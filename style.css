@@ -1,15 +1,14 @@
 *{
     margin: 0;
+    padding:0;
 }
 
 body {
-    padding: 0;
+    
     height: 100%;
     width: 100%;
     font-family: Arial, sans-serif;
     background-color: #a5c0f4;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +16,8 @@ body {
 }
 
 .container {
+    height: 99%;
+    width: 60%;
     background: linear-gradient(135deg, #3498db, #6e45e2);
     padding: 20px;
     border-radius: 10px;
@@ -38,7 +39,6 @@ body {
 .social-media-icon img {
     width: 60px;
     height: 60px;
-    /* border-radius: 50%; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
