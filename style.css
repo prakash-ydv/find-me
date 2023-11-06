@@ -1,14 +1,14 @@
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 body {
-    
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
     height: 100%;
     width: 100%;
     font-family: Arial, sans-serif;
-    background-color: #a5c0f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,20 @@ body {
 .container {
     height: 99%;
     width: 60%;
-    background: linear-gradient(135deg, #3498db, #6e45e2);
+    background: linear-gradient(135deg, #3e98b6, #6e45e2);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(27, 27, 27, 0.3);
 }
 
 .social-media-icon {
+    border-radius: 6px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
     display: block;
     margin: 10px auto;
     transition: transform 0.3s, cursor 0.3s;
